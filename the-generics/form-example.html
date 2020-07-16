@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Generics | Contact us</title>
+    <style>
+
+        .dropdown-content a {
+            display: none;
+        }
+
+        .dropdown:hover .dropdown-content a {
+
+            display: inline;
+            text-decoration: none;
+            padding: .25em;
+
+        }
+
+        .highlight-menu:hover {
+
+            background-color: beige;
+            display: inline;
+          
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <Header>
+
+        <!-- drop-down menu -->
+
+        <nav class="dropdown">
+            <a href="a">Main Menu</a>
+            <div class="dropdown-content">
+
+                <div class="highlight-menu">
+
+                    <a href="index.html">HOME</a>
+
+                </div>
+                <div class="highlight-menu">
+                    <a href="store.html">STORE</a>
+
+                </div>
+                <div class="highlight-menu">
+                    <a href="about.html">ABOUT</a>
+
+                </div>
+
+            </div>
+        </nav>
+
+
+        <!-- <nav class="dropdown">
+            <a href="a">Main Menu</a>
+            <div class="dropdown-content">
+            <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <Li><a href="store.html">STORE</a> </Li>
+                <li><a href="about.html">ABOUT</a> </li>
+            </ul>
+        </div>
+        </nav> -->
+        <hr>
+
+        <h1>The Generics</h1>
+
+        <section>
+            <h2>Sing up</h2>
+
+            <form action="success.html">
+                <label for="name"> Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name here">
+                <Label for="email">Email id</Label>
+                <input type="email" placeholder="abc@example.com" required>
+
+                <Label for="password">Password</Label>
+                <input type="password" required>
+
+
+                <Label for="password">Retype Password</Label>
+                <input type="password" required>
+
+                <button type="submit">Sign up</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Subscribe newsletter</h2>
+
+            <form action="success.html">
+                <label for="name"> Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name here">
+                <Label for="email">Email id</Label>
+                <input type="email" placeholder="abc@example.com" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Others</h2>
+
+            <form action="success.html">
+                <div>
+                    <label for="search"> Search</label>
+                    <input type="search" id="search" name="search" placeholder="Search something">
+                    <button type="button">Search</button>
+                </div>
+                <br>
+                <div>
+                    <label for="text-area">Leave a message for us</label>
+                    <textarea name="text-area" id="text-area" placeholder="Enter your message here" cols="30"
+                        rows="10"></textarea>
+                    <button type="submit">Send</button>
+
+                </div>
+
+                <br>
+                <div>
+                    <label for="file">Upload your Picture</label>
+                    <input type="file" name="file" id="file" accept="image/*">
+                    <button type="submit">Upload</button>
+                </div>
+
+                <br>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date">
+
+                </div>
+
+                <br>
+                <div>
+                    <label for="color">Color</label>
+                    <input type="Color">
+
+                </div>
+
+                <!--Try check box radio button and dropdown list here-->
+                <div>
+                    <br><br>
+                    <fieldset>
+                        <legend>Check boxes in field set</legend>
+                        <input type="checkbox" name="checkboxlist" id="this check" value="This" checked>
+                        <label for="this check">This</label>
+                        <input type="checkbox" name="checkboxlist" id="that check" value="That">
+                        <label for="that check">That</label>
+                        <input type="checkbox" name="checkboxlist" id="or-and check" value="And OR">
+                        <label for="that check">AND/OR</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <br><br>
+
+                    <fieldset>
+                        <legend>Radio buttons in field set</legend>
+                        <input type="radio" name="checkboxlist" id="this check" value="This" checked>
+                        <label for="this check">This</label>
+                        <input type="radio" name="checkboxlist" id="that check" value="That">
+                        <label for="that check">That</label>
+
+                    </fieldset>
+
+                </div>
+
+                <!--Drop down list with a value selected-->
+
+                <div>
+                    <br><br>
+                    <label for="Choose one">Choose one</label>
+                    <select name="cars" id="cars">
+                        <option value="Volvo">Volvo</option>
+
+                        <option value="Fiat" selected>Fiat</option>
+                        <option value="Ford">Ford</option>
+                    </select>
+                    <input type="submit">
+
+                </div>
+
+
+
+            </form>
+        </section>
+
+
+        <footer>
+            <h3>The Generics</h3>
+
+            <ul>
+                <li><a href="https://facebook.com" target="_blank"><img src="images/Facebook Logo.png" alt=""></a></li>
+                <li><a href="https://spotify.com" target="_blank"><img src="images/Spotify Logo.png" alt=""></a></li>
+                <li><a href="https://youtube.com" target="_blank"><img src="images/YouTube Logo.png" alt=""></a></li>
+            </ul>
+
+        </footer>
+
+</body>
+
+</html>
